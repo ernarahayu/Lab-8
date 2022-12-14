@@ -116,11 +116,11 @@ while True:
 ``` 
 
 # Penjelasan 
-1. # Membuat class
+**1. Membuat class**
 Jadi Apa itu Class ? Class merupakan sebuah rancangan atau blueprint dari sebuah objek. Untuk membuat sebuah kelas pada Bahasa Python dimulai dengan menggunakan kata kunci class dan dikuti dengan titik dua (:).
 ``` class mahasiswa: ```
 
-2. # Membuat Objek 
+**2. Membuat Objek** 
 Untuk membuat sebuah objek harus memiliki sebuah class.
 ``` bash
 def __init__(self, nim, nama, tugas, uts, uas):
@@ -135,7 +135,8 @@ def __init__(self, nim, nama, tugas, uts, uas):
 **Fungsi __init__()**
 Semua class memiliki fungsi yang disebut __init__(), yang selalu dijalankan ketika class sedang dimulai. Disamping itu gunakan fungsi __init__() untuk menetapkan nilai ke properti objek, atau operasi lain yang perlu dilakukan saat objek sedang dibuat. Ingat jika mendeklarasikan sebuah fungsi akan dimulai dengan kata kunci def.
 
-3. # Kita akan buat beberapa method untuk menambahkan, menampilkan, mengubah, dan menghapus data mahasiswa. a. Pertama membuat method tambah(), method ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan append() agar data yang terakhir ditambahkan ada di urutan list paling akhir.
+**3. Kita akan buat beberapa method untuk menambahkan, menampilkan, mengubah, dan menghapus data mahasiswa.**
+ a. Pertama membuat method tambah(), method ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan append() agar data yang terakhir ditambahkan ada di urutan list paling akhir.
 ``` bash 
 def tambah(self,nim,nama,tugas,uts,uas):
         data.nim.append(nim)
@@ -178,7 +179,7 @@ def hapus(self):
         del self.uas[no]
 ```
 
-4. # Deklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Ada 5 list kosong yang nantinya berisi NIM, Nama, nilai tugas, nilai UTS, dan nilai UAS
+**4. Deklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Ada 5 list kosong yang nantinya berisi NIM, Nama, nilai tugas, nilai UTS, dan nilai UAS**
 ``` data = mahasiswa([],[],[],[],[]) ```
 
 # Output 
